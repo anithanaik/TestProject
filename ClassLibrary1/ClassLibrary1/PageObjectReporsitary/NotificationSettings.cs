@@ -494,7 +494,7 @@ namespace ClassLibrary1
 
         public void Masqueradefaculty()
         {
-            OpenPeoplePage();
+            OpenPeoplePageAlumni();
             Thread.Sleep(4000);
             FacultyRole.Click();
             Thread.Sleep(4000);
@@ -581,7 +581,7 @@ namespace ClassLibrary1
 
         public void AssignAlumni_WithRole(string Role)
         {
-            OpenPeoplePage();
+            OpenPeoplePageAlumni();
             Thread.Sleep(2000);
 
             if (Role == "Student")
