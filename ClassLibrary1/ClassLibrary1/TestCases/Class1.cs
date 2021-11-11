@@ -189,6 +189,7 @@ namespace ClassLibrary1
                 //personalCommons.VerifyAlumniOptin(); 
                 Thread.Sleep(1000);
                 userInfo.Logout();
+                Console.WriteLine("End");
 
 
             }
